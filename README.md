@@ -1,8 +1,7 @@
 # Assembler MIPS  📡
-
 O assembler mips é um montador de codigo assembly baseado nos padrões MIPS
 
-##📖 Instruções de uso
+## 📖 Instruções de uso
 
 OBS: para o rodar este projeto é nescessario ter o node + npm instalado em sua maquina, caso não possua veja o seguinte guia de instalação [GUIA](https://zircon-sheet-5bd.notion.site/Instalando-o-Node-js-dd6653503d174c3db2c3bec337029efa)
 
