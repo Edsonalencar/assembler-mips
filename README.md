@@ -14,5 +14,5 @@ OBS: para o rodar este projeto é nescessario ter o node + npm instalado em sua 
 
 4 - Digite o nome do arquivo no console e espere a confirmação de termino
 
-5 - o Resultado da codificação estrá em dois arquivos: output.bin e output.txt
+5 - o Resultado da codificação estrá em dois arquivos: output.bin e output.txt, ambos dentro da pasta dist
 

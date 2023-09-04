@@ -10,13 +10,15 @@ const scanner = readline.createInterface({
 
 scanner.question("Digite o nome do arquivo: ", (input) => {
   let fileName = "";
+  console.log("\nCarregando....\n");
 
   if (input.includes(".asm")) fileName = input;
   else fileName = input + ".asm";
 
   main(fileName);
 
-  console.log("\nCarregando....\n");
+  console.log("\noutput pronto!!\n");
+  
   scanner.close();
 });
 
@@ -32,8 +34,8 @@ function main(fileName: string) {
       Array32BinString.push(element.toString(2).padStart(32, "0"));
     });
 
-    fs.writeFileSync("output.txt", Array32BinString.join("\n"));
-    fs.writeFileSync("output.bin", Array32Bin);
+    fs.writeFileSync("./dist/output.txt", Array32BinString.join("\n"));
+    fs.writeFileSync("./dist/output.bin", Array32Bin);
 
     console.log("Mips Montado");
   } catch (error) {
